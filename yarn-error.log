@@ -1,0 +1,39 @@
+Arguments: 
+  /snap/node/3292/bin/node /snap/node/3292/bin/yarn.js add netlify-lambda
+
+PATH: 
+  /home/paul/local/bin:/home/paul/local/bin:/home/paul/.yarn/bin:/home/paul/.config/yarn/global/node_modules/.bin:/home/paul/.composer/vendor/bin:/home/paul/.nvm/versions/node/v15.0.1/bin:/home/paul/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/lampp/bin/php:/snap/bin:/home/paul/.config/composer/vendor/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "netlify-aws",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "lambda-serve": "netlify-lambda serve functions",
+      "lambda-build": "netlify-lambda build functions"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
